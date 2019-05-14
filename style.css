@@ -1,0 +1,50 @@
+*
+{
+	box-sizing: border-box;
+
+}
+body
+{
+	max-width: 1000px;
+	margin: auto;
+}
+#content
+{
+	width: 1000px;
+display: grid;
+grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+grid-template-rows: auto auto;
+grid-gap: 3px;
+}
+article img
+{
+
+	height: 200px;
+	padding-left: 40px;
+	transition: 3s;
+	text-align: center;
+}
+article p
+{
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+}
+ul
+{
+	list-style: none;
+
+}
+li
+{
+		float: left;
+		margin-right: 20px;
+		font-size: 20px;
+		font-weight: bold;
+}
+article img:hover
+{
+transform: scale(2);
+}
